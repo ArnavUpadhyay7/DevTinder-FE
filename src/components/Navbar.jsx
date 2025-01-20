@@ -49,6 +49,7 @@ const Navbar = () => {
           </li>
           <li><Link to="/connections" className='py-2'>Connections</Link></li>
           <li><Link to="/requests" className='py-2'>Requests</Link></li>
+          <li><Link to="/premium" className='py-2'>Premium</Link></li>
           <li><a onClick={handleLogout} className='py-2'>Logout</a></li>
         </ul>
       </div>
